@@ -31,7 +31,7 @@ public class Main {
         ApplicationContext context=new ClassPathXmlApplicationContext("setting.xml");
 
 
-        // Here we can assign the "vehicle" ti the "id" of any bean (Car or Bike) in XML, and we DO NOT NEED TO RECOMPILE the file,
+        // Here we can assign the "vehicle" to the "id" of any bean (Car or Bike) in XML, and we DO NOT NEED TO RECOMPILE the file,
         // We can directly make changes to the external XML file and we can see the changes in the Output without Recompiling!!!!!!!
         // That's the beauty of Spring and called "DEPENDENCY INJECTION" as we can inject the dependency EXTERNALLY......
         Vehicle obj= (Vehicle) context.getBean("vehicle");
