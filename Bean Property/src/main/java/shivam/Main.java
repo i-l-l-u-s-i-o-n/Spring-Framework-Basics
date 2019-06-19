@@ -20,7 +20,7 @@ public class Main {
         obj.drive();
 
         Tyre tyre= (Tyre) context.getBean("tyre");
-        // To set the value of brand in the Tyre class using setTyre() method, we have to use the property Tag in the XML.
+        // To set the value of brand in the Tyre class using setBrand() method, we have to use the property Tag in the XML.
 
         System.out.println(tyre);
 
